@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/choose_course"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinCname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:textSize="@dimen/text_size" >
+        </Spinner>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/choose_class"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinClname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:textSize="@dimen/text_size" >
+        </Spinner>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/choose_student"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinSname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:textSize="@dimen/text_size" >
+        </Spinner>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/input_score"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etScore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/text_size" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:text="@string/submit_score"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+</ScrollView>

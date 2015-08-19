@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">警校学生管理系统</string>
+    <string name="action_settings">设置</string>
+
+    <!-- class文件常量 -->
+    <string name="back_to_main_interface">返回主界面</string>
+    <string name="logout">退出登录</string>
+    <string name="exit">"退出系统"</string>
+    <string name="update">修改</string>
+    <string name="delete">删除</string>
+    <string name="input_score_two">请输入成绩</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="agree">同意</string>
+    <string name="proposed_agree">拟同意</string>
+    <string name="disagree">不同意</string>
+    <string name="do_not_approve">未审批</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="none">无</string>
+    <string name="approve_student_application">审批学生请假</string>
+    <string name="approve">审批</string>
+
+    <!-- Toast text -->
+    <string name="pwd_between_6_and_20">密码必须在6–20位之间</string>
+    <string name="pwds_do_not_match">密码不一致,修改失败</string>
+    <string name="send_request_failure">请求发送失败</string>
+    <string name="complete_loading_all_data">数据全部加载完成，没有更多数据</string>
+    <string name="choose_application_start_date">请选择请假开始日期</string>
+    <string name="start_date_cant_lt_today">请假开始日期不能小于今天日期：</string>
+    <string name="choose_application_over_date">请选择请假结束日期</string>
+    <string name="start_date_can_not_gt_over_date">请假开始日期不能大于请假结束日期</string>
+    <string name="leave_place_not_null">前往地点不能为空</string>
+    <string name="leave_reason_not_null">请假原因不能为空</string>
+    <string name="approver_not_null">审批人不能为空</string>
+    <string name="approve_agree_application_can_not_delete">不能删除审批状态为同意的请假信息</string>
+    <string name="had_approved_can_not_operate">已审批过，无法操作</string>
+    <string name="clazz">班级</string>
+    <string name="course_not_null">课程不能为空</string>
+    <string name="class_not_null">班级不能为空</string>
+    <string name="student_not_null">学生不能为空</string>
+    <string name="score_not_null">成绩不能为空</string>
+    <string name="score_must_between_0_and_100">成绩必须是0-100的整数</string>
+
+    <!-- class文件常量  end -->
+
+
+    <!-- activity title -->
+    <string name="student_management_system">警校学生管理系统</string>
+    <string name="location_main_interface">当前位置-主界面</string>
+    <string name="location_personal_info_detail">当前位置-个人信息详情</string>
+    <string name="location_course_score_list">当前位置-课程成绩列表</string>
+    <string name="location_course_score_query">当前位置-课程成绩精确查询</string>
+    <string name="location_application_list">当前位置-请假信息列表</string>
+    <string name="location_update_application">当前位置-修改请假信息</string>
+    <string name="location_application">当前位置-请假申请</string>
+    <string name="location_main_menu">当前位置-主菜单</string>
+    <string name="location_update_pwd">当前位置-修改密码</string>
+    <string name="location_student_application_list">当前位置-学生请假列表</string>
+    <string name="location_student_score_list">当前位置-学生成绩列表</string>
+    <string name="location_add_student_score">当前位置-录入学生成绩</string>
+
+    <!-- logo.xml -->
+    <string name="loading">正在加载…</string>
+
+    <!-- login_system.xml -->
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="student">学生</string>
+    <string name="teacher">教师</string>
+    <string name="manager">管理员</string>
+
+    <!-- student_detail.xml -->
+    <string name="student_number">学号：</string>
+    <string name="name">姓名：</string>
+    <string name="class_name">所在班级：</string>
+    <string name="back">返回</string>
+
+    <!-- course_score_list.xml -->
+    <string name="course_name">课程</string>
+    <string name="score">成绩</string>
+    <string name="credit">总学分</string>
+    <string name="credit_hours">总学时</string>
+
+    <!-- moredata.xml -->
+    <string name="load_more_data">加载更多数据</string>
+
+    <!-- student_update_pwd.xml -->
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="confirm">确认</string>
+
+    <!-- main_menu_gridview_item.xml -->
+    <string name="menu_icon">菜单图标</string>
+
+    <!-- application_add.xml -->
+    <string name="application_start_date">请假开始日期</string>
+    <string name="application_over_date">请假结束日期</string>
+    <string name="leave_place">前往地点</string>
+    <string name="leave_reason">请假原因</string>
+    <string name="choose_approver">选择审批人：</string>
+    <string name="apply">申请</string>
+
+    <!-- listitem_student_application_list.xml -->
+    <string name="sequence_number">序列号：</string>
+    <string name="apply_date">申请日期：</string>
+    <string name="application_start_date_duplicate">请假开始日期：</string>
+    <string name="application_over_date_duplicate">请假结束日期：</string>
+    <string name="application_days">请假天数：</string>
+    <string name="leave_place_duplicate">前往地点：</string>
+    <string name="leave_reason_duplicate">请假原因：</string>
+    <string name="approval_state">审批状态：</string>
+    <string name="approver">审批人：</string>
+    <string name="approve_date">审批日期：</string>
+    <string name="approve_reply">审批意见：</string>
+    <string name="approve_reply_duplicate">审批意见</string>
+
+    <!-- activity_teacher_detail.xml -->
+    <string name="is_manager">是否需要管理学生：</string>
+    <string name="faculty">所在的系部：</string>
+    <string name="level">等级：</string>
+    <string name="is_teacher">是否需要上课：</string>
+    <string name="teach_course">所教课程：</string>
+    <string name="teach_class">所教班级：</string>
+
+    <!-- activity_teacher_student_score_list.xml -->
+    <string name="name_duplicate">姓名</string>
+
+    <!-- activity_teacher_student_score_add.xml -->
+    <string name="choose_course">选择课程：</string>
+    <string name="choose_class">选择班级：</string>
+    <string name="choose_student">选择学生：</string>
+    <string name="input_score">请输入成绩：</string>
+    <string name="submit_score">录入</string>
+
+</resources>

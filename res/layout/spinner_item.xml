@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <CheckedTextView
+        android:id="@+id/ctvSpinnerItem"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceBackgroundIndicator"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:paddingEnd="7dip"
+        android:paddingStart="12dip"
+        android:singleLine="true" />
+
+</LinearLayout>

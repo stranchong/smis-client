@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/application_start_date_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etStartDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:textSize="@dimen/text_size" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/application_over_date_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etOverDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:editable="false"
+            android:textSize="@dimen/text_size" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/leave_place_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etLeavePlace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:textSize="@dimen/text_size" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tv_padding_left"
+            android:text="@string/leave_reason_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/etLeaveReason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:textSize="@dimen/text_size" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/row_layout_margin_top"
+            android:text="@string/update"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+</ScrollView>

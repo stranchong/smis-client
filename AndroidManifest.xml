@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smis.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- android:name="com.smis.application.CrashApplication" -->
+    <application
+        android:name="com.smis.application.CrashApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_stumble_upon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.smis.activity.LogoActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smis.activity.LoginActivity"
+            android:label="@string/student_management_system" >
+        </activity>
+
+        <!-- student -->
+        <activity
+            android:name="com.smis.activity.student.StudentApplicationAddActivity"
+            android:label="@string/location_application" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.student.StudentApplicationsActivity"
+            android:label="@string/location_application_list" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.student.StudentApplicationUpdateActivity"
+            android:label="@string/location_update_application" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.student.StudentCourseScoresActivity"
+            android:label="@string/location_course_score_list" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.student.StudentDetailActivity"
+            android:label="@string/location_personal_info_detail" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.student.StudentMainMenuActivity"
+            android:label="@string/location_main_interface" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.student.StudentUpdatePwdActivity"
+            android:label="@string/location_update_pwd" >
+        </activity>
+
+        <!-- teacher -->
+        <activity
+            android:name="com.smis.activity.teacher.TeacherDetailActivity"
+            android:label="@string/location_personal_info_detail" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.teacher.TeacherMainMenuActivity"
+            android:label="@string/location_main_menu" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.teacher.TeacherStudentApplicationsActivity"
+            android:label="@string/location_student_application_list" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.teacher.TeacherStudentScoreAddActivity"
+            android:label="@string/location_add_student_score" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.teacher.TeacherStudentScoresActivity"
+            android:label="@string/location_student_score_list" >
+        </activity>
+        <activity
+            android:name="com.smis.activity.teacher.TeacherUpdatePwdActivity"
+            android:label="@string/location_update_pwd" >
+        </activity>
+    </application>
+
+</manifest>

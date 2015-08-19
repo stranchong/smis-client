@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="text_size">20sp</dimen>
+
+    <!-- 行间距 -->
+    <dimen name="row_layout_margin_top">5dp</dimen>
+    <dimen name="row_layout_margin_bottom">5dp</dimen>
+
+    <!-- TextView字体距离的左内间距 -->
+    <dimen name="tv_padding_left">13dp</dimen>
+</resources>

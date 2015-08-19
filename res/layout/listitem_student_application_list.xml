@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sequence_number"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvAid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apply_date"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvCreateDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/application_start_date_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/application_over_date_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvOverDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/application_days"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvCountDay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_reason_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvLeaveReason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_place_duplicate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvLeavePlace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="@dimen/row_layout_margin_bottom"
+        android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/approval_state"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvConfirmMark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/approver"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvConfirmName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="@dimen/row_layout_margin_bottom"
+        android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/approve_date"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvConfirmDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="@dimen/row_layout_margin_bottom"
+        android:layout_marginTop="@dimen/row_layout_margin_top" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/approve_reply"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvConfirmReply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size" />
+    </TableRow>
+
+</TableLayout>
